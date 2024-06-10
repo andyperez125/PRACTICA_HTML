@@ -1,0 +1,137 @@
+body{
+    background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" );
+font-family: calibri;
+}
+
+
+/* ESTO DE LA COLOR A LA BARRa*/
+.barra {
+
+background-color: #E9967A;
+overflow: hidden;
+border-radius: 10px 10px 10px 10px;
+}
+
+/* aqui le quito ese color morado asqueroso */
+a {
+color: azure;
+}
+
+/* AQUI PONDREMOS EL ESTILO DE LA BARRA DE LA ETIQUETA A*/
+.barra a {
+
+    float: left;
+    columns: #f2f2f2;
+    text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+border-radius: 10px 0px 39px 22px;
+font-size: 17px;
+
+
+}
+
+
+.link {
+    color: #E67E22;
+}
+
+
+
+.link:hover{
+    color: #E67E22;
+}
+
+/* color  del link en estado inactivo */
+.barra a:hover {
+    background-color: #E67E22;
+    color: black;
+}
+
+/* color de los links activos */
+
+.barra a.active {
+background-color: #FA8072;
+color: white;
+
+}
+
+
+.contenido {
+display: flex ;
+flex-wrap: wrap;
+padding: 10px 10px 10px 10px;
+}
+
+#ima1 {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 5px 5px 5px;
+    align-content: center;
+    }
+
+
+.noti {
+margin: 5px;
+flex: 1;
+width: 70%;
+justify-content: space-between ;
+padding: 10px;
+background: #fafafa10;
+backdrop-filter: blur(0.4rem);
+border-radius:15px;
+border: 1px solid lightgray;
+box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+
+
+}    
+
+.tarjeta{
+  
+    flex: 2;
+   margin: 5px;
+   padding: 10px;
+   justify-content:space-between;
+   background: #fafafa10;
+   backdrop-filter: blur(0.4rem);
+   border-radius:15px;
+   border: 1px solid lightgray;
+   box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+}
+
+.tarjeta {
+   
+}
+
+p {
+
+    text-align: justify;
+}
+
+h2{
+    background: url("https://i.gifer.com/3qQz.gif");
+    border-radius: 10px 10px 10px 10px;
+}
+
+h4 {
+background: url("https://i.gifer.com/g1H3.gif");
+    border-radius: 10px 10px 10px 10px;
+    color: aliceblue;    
+
+    padding: 5px;
+}
+
+.fotito {
+ width: 70%;
+ max-width: 1000px;
+ min-width: 320px ;
+ margin: auto;
+
+}
+
+#foto {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, 5);
+}

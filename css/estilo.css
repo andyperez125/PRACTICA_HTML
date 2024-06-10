@@ -20,14 +20,14 @@ color: azure;
 /* AQUI PONDREMOS EL ESTILO DE LA BARRA DE LA ETIQUETA A*/
 .barra a {
 
-    float: left;
-    columns: #f2f2f2;
-    text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-border-radius: 10px 0px 39px 22px;
-font-size: 17px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ float: left;
+ columns: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ border-radius: 10px 0px 39px 22px;
+ font-size: 17px;
+ font-family: Calibri;
 
 }
 
@@ -53,13 +53,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .barra a.active {
 background-color: #FA8072;
 color: white;
-
-}
-
-
-.contenido {
-
- padding: 14px 16px;
 
 }
 
